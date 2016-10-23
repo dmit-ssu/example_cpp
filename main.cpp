@@ -1,10 +1,12 @@
 #include <iostream>
-
 using namespace std;
-
-int main(int argc, char *argv[])
+int main()
 {
-    cout << "Hello, World!\n";
-
-    return 0;
+	char name[50];
+	cout << "Please enter your name:\n";
+	cin>>name;
+	cout << "Hello " << name << "!";
+	return 0;
+	
 }
+
