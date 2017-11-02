@@ -1,2 +1,6 @@
 TEMPLATE = app
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    oop.cpp
+
+HEADERS += \
+    oop.h
