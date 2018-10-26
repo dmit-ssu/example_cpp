@@ -1,0 +1,25 @@
+// Header Files
+#include<iostream>
+#include<conio.h>
+
+//Main Function
+
+using namespace std;
+
+int main() {
+   // Local Variable 'a' Declaration
+   int a;
+
+   cout << "Simple Program for Read user Input (Integer) Using cin \n";
+
+   cout << "Enter Number : ";
+   cin >> a;
+
+   cout << "Entered Input Is = " << a;
+
+   // Wait For Output Screen
+   getch();
+
+   //Main Function return Statement
+   return 0;
+}
